@@ -1,28 +1,13 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+#include <iostream>
 
-# Precompiled Headers
-*.gch
-*.pch
+using namespace std;
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+int main()
+{
+cout<< "Welcome to Lawrence Aggregation Service" endl;
+cout<< "Please select from the following options:" endl;
+cout<< "Purchase mileage vouchers from:" endl;
 
-# Fortran module files
-*.mod
+  return 0;
+}
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
